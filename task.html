@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>网易教育产品部</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="opacity"></div>
+	<div class="login-area">
+		<div class="close-btn">&#215;</div>
+		<form action="">
+			<h3>登录网易云课堂</h3>
+			<input type="text" id="account" placeholder="账号">
+			<input type="password"id="password"placeholder="密码">
+			<div class="login-btn">登录</div>
+		</form>
+	</div>
+	<div class="video-mask">
+		<div class="close-btn">&#215;</div>
+		<h3>请观看下面的视频</h3>
+		<video src="http://mov.bn.netease.com/open-movie/nos/mp4/2014/12/30/SADQ86F5S_sh
+d.mp4" id="video" controls></video>
+	</div>
+	<div class="infobar">
+		<div class="infobar-content">
+			<div class="infobar-left">
+				<span>网易云课堂微专业，帮助你掌握专业技能，令你求职或加薪多一份独特优势！</span>
+				<span><a href="http://study.163.com/smartSpec/intro.htm">立即查看&gt;</a></span>
+			</div>
+			<div id="infobar-right">
+				<span id="X">&#215;</span>
+				<span id="no-more-info">不再提醒</span>
+			</div>
+		</div>
+	</div>
+	<div class="top">
+		<div class="top-content">
+			<h1 class="top-logo-area">
+				<span id="logo-en">EDU</span>
+				<span id="logo-cn">网易教育产品部</span>
+			</h1>
+			<div class="top-follow-area">
+				<span class="btn">+关注</span>
+				<div class="follow-cancel">
+					<span class="follow-status">&radic;已关注</span>
+					<span class="btn-cancel">取消</span>
+				</div>
+				<span id="fans">粉丝</span>
+				<span id="fans-num">45</span>
+				
+			</div>
+			<ul class="top-nav">
+				<li><a href="http://open.163.com/">网易公开课</a></li>
+				<li><a href="http://study.163.com/">网易云课堂</a></li>
+				<li><a href="http://www.icourse163.org/">中国大学MOOC</a></li>
+				<span id="top-search"></span>
+			</ul>
+		</div>
+	</div>
+	<div class="carousel">
+		<div class="carousel-image">
+			<img src="imgs/banner1.jpg" alt="banner1">
+			<img src="imgs/banner2.jpg" alt="banner2">
+			<img src="imgs/banner3.jpg" alt="banner3">
+		</div>
+		<ul class="pointer">
+			<li id="pointer1" class="active" ></li>
+			<li id="pointer2" ></li>
+			<li id="pointer3" ></li>
+		</ul>
+	</div>
+	<div class="text">
+		<table class="text-content">
+			<tr>
+				<th id="open">
+					<h3>网易公开课</h3>
+					<p>推出国内外名校公开课，涉及广泛的学科，名校老师认真讲解深度剖析，网易视频公开课频道搭建起强有力的网络视频教学平台。 </p>
+					<br><a href="http://open.163.com/">了解更多 ></a>
+				</th>
+				<th id="study">
+					<h3>网易云课堂</h3>
+					<p>网易旗下大型在线学习平台，该平台面向学习者提供海量免费、优质课程，创新的个性化学习体验，自由开放的交流互动环境。 </p>
+					<br><a href="http://study.163.com/">了解更多 ></a>
+				</th>
+				<th id="mooc">
+					<h3>中国大学MOOC</h3>
+					<p>是爱课程网携手云课堂打造的在线学习平台，每一个有提升愿望的人，都可以在这里学习中国最好的大学课程，学完还能获得认证证书。 </p>
+					<br><a href="http://mooc.163.com/">了解更多 ></a>
+				</th>
+				
+			<tr>
+		</table>
+	</div>
+	<div class="environment">
+		<img src="imgs/environment.png" alt="working environment">
+	</div>
+	<div class="content">
+            <ul class="tab-btn-area">
+                <li class="tab-btn active" data-type="10"><a href="#product-design">产品设计</a></li>
+                <li class="tab-btn" data-type="20"><a href="#programming-language">编程语言</a></li>
+            </ul>
+            <div class="course-display-area">
+                <ul></ul>
+                <div class="page-nav-area">
+                    <ul class="page-nav-btn">
+                    </ul>
+                </div>
+            </div>
+			<div class="slide">
+				<div class="video-area">
+					<h3>机构介绍</h3>
+					<div class="video-introduce-area">
+						<p>观看下面的视频来了解吧:</p>
+						<img src="imgs/video.jpg" alt="video"id="video-thumb">
+					</div>
+				</div>
+				<div class="latest-rank">
+					<h3>最热排行</h3>
+					<div class="rank-list">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer-container">
+				<div class="beian">
+					<span id="logo-en">EDU</span>
+				<span id="logo-cn">网易教育产品部</span>
+				<p>&copy;2014 icourse163.org 浙ICP备08114786号-1</p>
+				<p>icourses.cn 京ICP备12020869号-2 京公网安备110102000459-2</p>
+
+				</div>
+				<div class="footer-right">
+					<ul class="friend-link">
+						<h6>友情链接:</h6>
+						<li><a href="http://open.163.com/" target="_blank">网易公开课</a></li>
+						<li><a href="http://study.163.com/"target="_blank">网易云课堂</a></li>
+						<li><a href="http://www.icourse163.org/"target="_blank">中国大学MOOC</a></li>
+					</ul>
+					<ul class="we">
+						<h6>我们:</h6>
+						<li>关于</li>
+						<li>联系</li>
+						<li>关注</li>
+					</ul>
+					<ul class="more-info">
+						<h6>更多:</h6>
+						<li>常见问题</li>
+						<li>意见反馈</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<script type="text/javascript" src="task.js" ></script>
+	<script type="text/javascript" src="md5.min.js" ></script>
+
+</body>
+</html>
